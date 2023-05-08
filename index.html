@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- <style>
+     @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+ </style> -->
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <!-- <link type="text/css" rel="fontsheet" href="/assets/fonts.css" /> -->
 <head>
     <title>BenHwaet</title>
 </head>
@@ -20,51 +24,60 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <img src="assets/KingBugs.png" alt="Bugs Bunny pretending to be a king."
+        <img src="assets/images/KingBugs.png" alt="Bugs Bunny pretending to be a king."
             height=auto width=300px/>
-            <figcaption text-align="center">
-                 <p>"Hwæt we gardena in geardagum, þeod-cyninga” Beowulf, Anonymous</p>
-                 <p>“How we have heard of the might of the kings.”  translated by George Walkden, Ph.D.</p> 
-                 <!-- "Not really." to appear on hover -->
-            </figcaption>
+        <figcaption>
+             <p>"Hwæt we gardena in geardagum, þeod-cyninga” Beowulf, Anonymous</p>
+             <p>“How we have heard of the might of the kings.”  translated by George Walkden, Ph.D.</p> 
+        </figcaption>
+    <main>    
+        <section class="bio" id="bio">
             <h3>Hwaet About Me?</h3>
                 <p>
                 Bla bla bla, blablabla, bla! Blablablabla, blabity bladibla.
                 </p>
         </section>
-        <section>  
+    </main>
+        <section>
+            <aside>  
             <!-- Idea is to have a scrollable image wheel, 
                 horizontal for mobile, vertical for desktop.   -->
                 <h3>Kingly Capers a.k.a. Current Projects</h3>
-            <div class="project_card">
-                <img src="assets/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"
+            <div id="mainproject">
+                <img src="assets/images/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"
                 height=300px width="auto"/>
                 <footer>Project 1</footer>
             </div>
-            <div class="project_card">
-                <img src="assets/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
+            <div class="projectcard">
+                <img src="assets/images/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
                 <footer>Project 2</footer>
             </div>
-            <div class="project_card">
+            <div class="projectcard">
                 <img src="assets/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
                 <footer>Project 3</footer>
             </div>
-            <div class="project_card">
-                <img src="assets/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
+            <div class="projectcard">
+                <img src="assets/images/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
                 <footer>Project 4</footer>
             </div>
+            </aside>
         </section> 
-        <section>   
+        <address class="resume" id="resume">   
             <h3>C.V. (Carrots Vitae)</h3>
             <!-- Carrot Vitae: possibility of turnig through pages, 
                 arrows to the sides, 1 of 3, 2 of 3, 3 of 3 -->
-            <img src="assets/BMDesRoches2020.docx.pdf" alt="Images version of my C.V., click to expand">
-        </section>
+                <ul>
+                    <li><a href="#">benhwaet@gmail.com</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">LinkdIn</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+                <img class="cv" src="assets/BMDesRoches2020.docx.pdf" 
+                alt="Images version of my C.V., click to expand">
+            </address>
         <section>    
             <h3>Hwaet About <strong>You</strong></h3>
-            <form action="/action_page.php">
+            <form>
                 <label for="name">Name and Pronouns:</label><br>
                 <input type="text" id="name" name="name">
                 <input type="text" id="pronouns" name="pronouns"><br>
@@ -73,12 +86,11 @@
                 <!-- <label for="comment">Question, Query, Quandary, or Comment:</label><br> -->
                 <!-- Would an and/or be too much in above line? -->
                 <label type="comment">What's Up Doc?</label><br>
-                <textarea id="comment" name="comment" rows="4" cols="40"></textarea><br>
+                <textarea type="text" id="text" name="text" rows="4" cols="40"></textarea><br>
                 <input type="submit" name="submit" value="Huzzah!">
                 <!-- Submit text will display on hover -->
             </form>
         </section>
-    </main>
     <footer>
         <h5>That's all folks!</h5>
         &COPY; BenHwaet 2023
