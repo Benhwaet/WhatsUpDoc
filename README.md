@@ -1,7 +1,6 @@
-# Propagandist
+# Hwaet's Up Doc
 ## Description
-Welcome to the Propagandist, where I amuse myself by creating propaganda promoting ME and my projects. This code serves to create a website on which my information, contact and otherwise, as well as my current and upcoming projects can be showcased in an accessible and visually pleasing manner (an insight into my aesthetic preferences).
-
+Welcome to the Hwaet's Up Doc, a website where I can showcase my work. This repository serves to create a website on which my information, contact and otherwise, as well as my current and upcoming projects can be showcased in an accessible and visually pleasing manner. It also serves as an insight into my aesthetic sensibilities and features I find interesting. Though this application serves as a professional portfolio, I refuse not to have fun while doing it.
 ## Usage
 
 ## Credits
