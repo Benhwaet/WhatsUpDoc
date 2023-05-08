@@ -1,43 +1,77 @@
 <!DOCTYPE html>
+<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
 <head>
-    Propagandist: BenHwaet's Coding Journey
+    <title>BenHwaet</title>
 </head>
 <body>
     <header>
-        <h1>Benoît Marcel DesRoches (BenHwaet)</h1>
-        <h2>Propagandist: BenHwaet's Coding Journey</h2>
+        <h1>
+            BenHwaet <!-- Full name revealed on hover, for Bootcamp purposes -->
+        </h1>
+        <h2>Hwaet There is About Me</h2>
         <nav class="navigation">
             <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Resume</li>
-                <li>Contact Me</li>
+                <li><a href="#"></a>About Me</li>
+                <li><a href="#"></a>Projects</li>
+                <li><a href="#"></a>Resume</li>
+                <li><a href="#"></a>Contact Me</li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
+            <img src="assets/KingBugs.png" alt="Bugs Bunny pretending to be a king."
+            height=auto width=300px/>
+            <figcaption text-align="center">
+                 <p>"A true image of myself."</p> 
+                 <!-- "Not really." to appear on hover -->
+            </figcaption>
             <h3>About Me</h3>
-            <img src="" 
-            alt="A true image of myself. Not really, it's Bugs Bunny 
-            - my spirit animal/person - pretending to be a king" />
-            <info>
-
-            </info>
+                <p>
+                Bla bla bla, blablabla, bla! Blablablabla, blabity bladibla.
+                </p>
         </section>
         <section>    
-            <h3>Projects to take over the world</h3>
+                <h3>Projects To Take Over the World</h3>
+            <div class="project_card">
+                <img src="assets/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"
+                height=300px width="auto"/>
+                <footer>Project 1</footer>
+            </div>
+            <div class="project_card">
+                <img src="assets/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
+                <footer>Project 2</footer>
+            </div>
+            <div class="project_card">
+                <img src="assets/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
+                <footer>Project 3</footer>
+            </div>
+            <div class="project_card">
+                <img src="assets/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
+                <footer>Project 4</footer>
+            </div>
         </section> 
         <section>   
-            <h3>My adult life at a glance</h3>
-            <doc src="" alt="Image versions of my resume, click to expand">
-
-            </doc>
+            <h3>C.V.</h3>
+            <!-- Carrot Vitae -->
+            <img src="assets/BMDesRoches2020.docx.pdf" alt="Images version of my C.V., click to expand">
         </section>
         <section>    
             <h3>Contact Me</h3>
-            <form>
-                
+            <form action="/action_page.php">
+                <label for="name">Name and Pronouns:</label><br>
+                <input type="text" id="name" name="name">
+                <input type="text" id="pronouns" name="pronouns"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <!-- <label for="comment">Question, Query, Quandary, or Comment:</label><br> -->
+                <label type="comment">What's Up Doc?</label><br>
+                <!-- Would an and/or be too much in above line? -->
+                <textarea id="comment" name="comment" rows="4" cols="40"></textarea><br>
+                <input type="submit" name="submit" value="Huzzah!">
+                <!-- Submit button will display submit on hover -->
             </form>
         </section>
     </main>
