@@ -1,0 +1,141 @@
+* {
+    border: 2px solid;  
+}
+
+header {
+    display: flex;
+    position: absolute;
+    margin: 0%;
+    background-color: rgb(17, 17, 67);
+    color: gold;
+    border: 5px solid gold;
+}
+
+header h1 {
+    display: block;
+    font-size: 45px;
+    margin-inline-start: 50%;
+    margin-inline-end: 50%;
+    border: 2px solid white;
+}
+
+header h2 {
+    display: block;
+    position: relative;
+}
+
+header nav {
+  /*  display: wrap;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+} */border: 5px solid pink;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 5px border purple;
+}
+
+header nav ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+    text-align: right;
+
+}
+
+header nav ul li a {
+
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black
+     
+  }
+.avatar {
+    width: 200px;;
+    height: 200px;
+    margin-block: 5%;
+    position: relative;
+    float: left;
+}
+
+figcaption {
+    
+   
+}
+
+h3 {
+   
+}
+
+
+.headshot {
+
+ }
+
+.bio {
+    
+}
+
+main h3 {
+
+}
+
+main p {
+
+}
+
+aside {
+    display: flex;
+    
+}
+
+aside h3 {
+
+}
+
+#mainproject {
+
+}
+
+.projectcard {
+    
+}
+
+.resume {
+
+}
+
+address h3 {
+
+}
+
+address ul {
+
+}
+
+address ul li a {
+
+}
+
+.cv {
+
+}
+
+form {
+    
+}
+
+footer {
+  background-color: rgb(17, 17, 67);
+
+}
+
+h5 {
+    
+}
