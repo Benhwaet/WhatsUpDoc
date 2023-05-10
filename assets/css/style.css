@@ -1,0 +1,159 @@
+* {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed;  
+}
+
+body {
+    display: flex;
+    border: 5px dotted black 
+  }
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(17, 17, 67);
+    color: gold;
+    border: 5px solid gold;
+}
+
+header h1 {
+    display: flex;
+    font-size: 45px;
+    margin-inline-start: 50%;
+    margin-inline-end: 50%;
+    border: 2px solid white;
+}
+
+header h1:hover {
+    color: white;
+}
+
+h2 {
+    display: fixed;
+    position: absolute;
+    margin-block: 7%;
+    margin-left: .7%;
+    justify-content: center;
+    align-items: center;
+    color:rgb(17, 17, 67)
+}
+
+/* header nav {
+    display: flex;
+    justify-content: flex-start;
+    border: 5px solid pink;
+}  */
+
+.navigation {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    color: white;
+    border: 5px border purple;
+}
+
+/* section nav ul li {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 5px;
+    color: gold;
+} */
+
+section nav ul li a {
+
+}
+
+
+.avatar {
+    width: 200px;;
+    height: 200px;
+    margin-block: 10%;
+    position: relative;
+    float: left;
+}
+
+figcaption {
+    
+   
+}
+
+h3 {
+   
+}
+
+
+.headshot {
+
+ }
+
+.bio {
+    
+}
+
+main h3 {
+
+}
+
+main p {
+
+}
+
+aside {
+    display: flex;
+    
+}
+
+aside h3 {
+
+}
+
+#mainproject {
+
+}
+
+.projectcard {
+    
+}
+
+.resume {
+
+}
+
+address h3 {
+
+}
+
+address ul {
+
+}
+
+address ul li a {
+
+}
+
+.cv {
+
+}
+
+form {
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column wrap;
+  background-color: rgb(17, 17, 67);
+  color: gold;
+}
+
+h5 {
+    
+}
