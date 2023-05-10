@@ -1,82 +1,86 @@
 <!DOCTYPE html>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<!-- <style>
-     @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
- </style> -->
-<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <!-- <link type="text/css" rel="fontsheet" href="/assets/fonts.css" /> -->
+<link rel="stylesheet" type="text/css" href="./assets/css/newstyle.css" />
+
 <head>
-    <title>BenHwaet</title>
+    <title>BenHwaet Portfolio</title>
 </head>
+
 <body>
     <header>
-        <h1>BenHwaet</h1>
-        <!-- <span class ="tooltiptext">Benoît M. DesRoches</span>  -->
-    <!-- Full name revealed on hover, for Bootcamp purposes -->    
-    </header>         
-    <section>
+        <h1>BenHwaet</h1>         
         <h2>Hwaet's Up Doc?</h2>
         <nav class="navigation">
             <ul>
-                <li><a href="#"></a>About Me</li>
-                <li><a href="#"></a>Projects</li>
-                <li><a href="#"></a>Resume</li>
-                <li><a href="#"></a>Contact Me</li>
+                <li><a href="#bio">About Me</a></li>
+                <li><a href="#projects"></a>Projects</li>
+                <li><a href="#cv"></a>Resume</li>
+                <li><a href="#contact"></a>Contact Me</li>
             </ul>
         </nav>
-    </section>
-    <section>    
-        <img class="avatar" src="assets/images/KingBugs.png" 
-        alt="Bugs Bunny pretending to be a king."
-            height=auto width=300px/>
-        <figcaption>
-             <p>"Hwæt we gardena in geardagum, þeod-cyninga” Beowulf, Anonymous</p>
-             <p>“How we have heard of the might of the kings.”  translated by George Walkden, Ph.D.</p> 
-        </figcaption>
-    </section>    
-    <main>
-        <aside>  
-            <!-- Idea is to have a scrollable image wheel, 
-                horizontal for mobile, vertical for desktop.   -->
-                <h3>Current Projects</h3>
-            <div id="mainproject">
-                <img src="assets/images/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"
+    </header>
+  <main>      
+    <section class="bio" id="bio">
+        <h3>Hwaet About Me?</h3>
+            <p>
+            As a Library Assistant, Ben spends his days preparing storytimes
+            and crafts for children, and engaging in other exciting library tasks.
+            He is a big fan of video games, scifi-fantasy novels and interactive fiction, 
+            as well as books in general.
+            Since videogames and library databases fill much of his life, he thought coding
+            would be a way to not only understand these things better, but also build and/or 
+            modify them.
+            Having grown up in the 90s and remembering the fun days of dial-up internet and phones with cords,
+            seeing technology grow at an exponential rate has been a fascinating experience.
+            He would like to understand <strong>some</strong> of this technology more deeply.
+            Though comfortable with technology and the intenet (though not social media),
+            Ben is very much a beginner in coding knowledge. He also doesn't speak in the 
+            third person in real life.
+            <strong>Welcome to my first website, it probably shows.</strong>
+            </p>
+    </section> 
+    <section class="projects" id="projects">  
+        <h3>Current Projects</h3>
+        <div class="mainproject">
+            <img src="assets/images/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"
                 height=300px width="auto"/>
-                <p>Project 1</p>
-            </div>
-            <div class="projectcard">
-                <img src="assets/images/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
-                <p>Project 2</p>
-            </div>
-            <div class="projectcard">
-                <img src="assets/images/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
-                <p>Project 3</p>
-            </div>
-        </aside>    
-        <section class="bio" id="bio">
-            <h3>Hwaet About Me?</h3>
-                <p>
-                Bla bla bla, blablabla, bla! Blablablabla, blabity bladibla.
-                </p>
+            <div>Project 1</div>
+        </div>
+        <div class="sideproject">
+            <img src="assets/images/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
+             <div>Project 2</div>
+        </div>
+        <div class="sideproject">
+            <img src="assets/images/bugscarrot.jpeg" alt="Bugs Bunny eating a carrot"/>
+            <div>Project 3</div>
+        </div>
+    </section>
+    <aside>    
+        <section class="avatar">    
+            <img class="headshot" src="assets/images/KingBugs.png" 
+            alt="Bugs Bunny pretending to be a king."
+                height=auto width=300px/>
+            <figcaption>
+                 <p>"Hwæt we gardena in geardagum, þeod-cyninga” <cite>Beowulf</cite>, Anonymous</p>
+                 <p>“How we have heard of the might of the kings.”  translated by George Walkden, Ph.D.</p> 
+            </figcaption>
         </section>
-   
-        </section> 
-        <address class="resume" id="resume">   
+        <section class="cv" id="cv">   
             <h3>C.V. (Carrots Vitae)</h3>
             <!-- Carrot Vitae: possibility of turnig through pages, 
                 arrows to the sides, 1 of 3, 2 of 3, 3 of 3 -->
-                <ul>
-                    <li><a href="#">benhwaet@gmail.com</a></li>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">LinkdIn</a></li>
-                    <li><a href="#">Facebook</a></li>
-                </ul>
-                <!-- <img class="cv" src="assets/BMDesRoches2020.docx.pdf" 
-                alt="Images version of my C.V., click to expand"> -->
-            </address>
+    <address class="contact" id="contact">     
         <section>    
-            <h3>Hwaet About <strong>You</strong></h3>
+        <ul class="myinfo">
+            <li><a href="#">benhwaet@gmail.com</a></li>
+            <li><a href="https://github.com/Benhwaet">GitHub</a></li>
+            <li><a href="https://account.xbox.com/en-ca/Profile?xr=socialtwistnav">XBOX</a></li>
+            <li><a href="#">Placeholder</a></li>
+        </ul>
+        </section>   
+        <section>  
+            <h3>Hwaet About <strong>You</strong>?</h3>
             <form>
                 <label for="name">Name and Pronouns:</label><br>
                 <input type="text" id="name" name="name">
@@ -87,13 +91,15 @@
                 <!-- Would an and/or be too much in above line? -->
                 <label type="comment">What's Up Doc?</label><br>
                 <textarea type="text" id="text" name="text" rows="4" cols="40"></textarea><br>
-                <input type="submit" name="submit" value="Huzzah!">
+                <input type="submit" id="submit" name="submit" value="Huzzah!">
                 <!-- Submit text will display on hover -->
             </form>
-        </section>
-        </main>
+        </section>    
+    </address>
+  </main>
+    
     <footer>
-        <h5>That's all folks!</h5>
+        <h5>That's all folks, thanks for stopping by!</h5>
         &COPY; BenHwaet 2023
     </footer>
 </body>

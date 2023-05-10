@@ -1,0 +1,142 @@
+* {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+title {
+
+}
+
+body {
+  display: flex;
+
+}
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  color: gold;
+  border: 5px solid gold;
+  background-color: rgb(28, 28, 76);
+}
+
+h1 {
+  display: flex;
+  font-size: 45px;
+  margin-inline-start: 50%;
+  margin-inline-end: 50%;
+  color: gold;
+}
+
+h2 {
+  display: flex;
+  margin-inline-start: 50%;
+  margin-inline-end: 50%;
+  color: gold;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  align-items: flex-end;
+  color: white;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+  display: flex;
+  margin: 10px;
+}
+main {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.bio {
+
+}
+
+main section h3 {
+
+}
+
+.projects {
+
+}
+
+.mainproject {
+
+}
+
+.sideproject {
+
+}
+
+aside {
+
+}
+
+.avatar {
+
+}
+
+.headshot {
+
+}
+
+figcaption {
+
+}
+
+.cv {
+
+}
+
+aside h3 {
+
+}
+
+.contact {
+
+}
+
+.myinfo {
+
+}
+
+form {
+
+}
+
+#pronouns {
+
+}
+
+#email {
+
+}
+
+#text {
+
+}
+
+#submit {
+
+}
+
+footer {
+
+}
+
+h5 {
+
+}
